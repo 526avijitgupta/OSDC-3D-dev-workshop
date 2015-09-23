@@ -1,0 +1,22 @@
+CREATING A SCENE
+
+CAMERA
+
+LIGHTS
+
+MATERIAL:
+
+MATH
+
+ANIMATION
+
+
+GEOMETRIES:
+
+BoxGeometry
+CircleGeometry
+CubeGeometry
+PlaneGeometry
+SphereGeometry
+TextGeometry
+TubeGeometry
