@@ -20,3 +20,7 @@ PlaneGeometry
 SphereGeometry
 TextGeometry
 TubeGeometry
+
+
+python -m SimpleHTTPServer ---------------- for Ubuntu
+python -m http.server ---------------- For Windows
