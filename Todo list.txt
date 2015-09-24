@@ -24,3 +24,10 @@ TubeGeometry
 
 python -m SimpleHTTPServer ---------------- for Ubuntu
 python -m http.server ---------------- For Windows
+
+Introduction:
+1. variables + functions
+2. Objects - Methods and properties
+3. 'new' keyword
+4. create and appendelement
+5. eventlistener.
