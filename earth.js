@@ -93,7 +93,7 @@ window.onload = function() {
   var animate = function () {
     //moon1.rotation.y += .01;
     //moon2.rotation.y += .01;
-    //moon3.rotation.y += .01;
+    moon3.rotation.y += .01;
 
     renderer.render(scene, camera);
 
