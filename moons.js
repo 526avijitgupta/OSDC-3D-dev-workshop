@@ -5,10 +5,11 @@ window.onload = function() {
   function init(){
 
     /* WEBGL RENDERER */
-    renderer = new THREE.WebGLRenderer({canvas : document.getElementById('scene')});
     renderer = new THREE.WebGLRenderer();
     renderer.setClearColor(0x3F3F3F);
     renderer.setSize(ww,wh);
+    document.body.appendChild( renderer.domElement );
+
 
     /* SCENE */
     scene = new THREE.Scene();
