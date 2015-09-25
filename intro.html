@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Introduction to JS</title>
+</head>
+<body>
+</body>
+	<script type="text/javascript">
+		// Objects..
+		var myCar = new Object();
+		var anotherCar = {};
+		
+		myCar.make = "Ferrari";
+		myCar.model = "360 Spider";
+		myCar.engineStart = false;
+
+		anotherCar.make = 'Ford';
+		anotherCar.model = 'Mustang';
+		anotherCar.engineStart = true;
+		        
+		console.log(myCar.make);
+        // Functions..
+        function start(car) {
+        	car.engineStart = true;
+        }
+        start(myCar);
+
+        // DOM
+        var element = document.createElement('p');
+        element.innerHTML = 'This is a paragraph';
+        document.body.appendChild(element);
+	</script>
+</html>
